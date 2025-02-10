@@ -1,3 +1,6 @@
+
+
+
 from flask import Flask,request,render_template
 import numpy as np
 import pandas as pd
@@ -7,7 +10,9 @@ from src.pipeline.predict_pipeline import CustomData,PredictPipeline
 
 application=Flask(__name__)
 
+
 app=application
+# Another file named application.py which is exactly copy of app.py to deploy the app on the aws.
 
 ## Route for a home page
 
